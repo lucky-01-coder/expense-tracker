@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="tracker.css" />
+    <script
+      src="https://kit.fontawesome.com/dcb8d7c986.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1 style="color: aliceblue; font-size: 50px; margin-bottom: 25px">
+      Expense Tracker
+    </h1>
+    <div class="card">
+      <div class="total-area">
+        <h2>Total Expense</h2>
+        <div id="total"></div>
+      </div>
+      <input
+        type="text"
+        class="inp"
+        id="exp-name"
+        placeholder="Expense Name"
+      /><br />
+      <input
+        type="number"
+        class="inp"
+        id="exp-amt"
+        placeholder="Expense Amount"
+      />
+      <br />
+      <button id="add-exp">Add</button><br />
+      <div id="exp-list"></div>
+    </div>
+
+    <script src="tracker.js"></script>
+  </body>
+</html>
